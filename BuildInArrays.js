@@ -5,8 +5,8 @@
 // findIndex
 // map
 // reduce
-// every
-// some
+// every is similar to &&
+// some is similar to || 
 // entries
 // includes
 // splice
@@ -61,3 +61,19 @@ const users = [
 
 // console.log(users)
 // console.log(names)
+
+// const reduceUsers = users.reduce((acc, user) => {
+//     if (user.age > 30){
+//         return acc;
+//     }
+//     acc[user.name] = user;
+//     return acc;
+// }, {})
+
+// console.log(reduceUsers)
+
+// const kidUsers = users.every(user => user.age < 10);
+// const youngUsers = users.every(user => user.age > !40);
+
+// console.log(kidUsers)
+// console.log(youngUsers)
