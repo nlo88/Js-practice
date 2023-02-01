@@ -9,3 +9,5 @@ function hasThreeVowels(str){
     }
     return vowelCount > 3
 }
+
+console.log(hasThreeVowels)
